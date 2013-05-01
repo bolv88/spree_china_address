@@ -10,9 +10,9 @@ Remove firstname, lastname.
 how to use in spree
 =======
 
--cd your_store
--bundle exec rake spree_china_address:install:migrations
--bundle exec rake db:migrate
+- cd your_store
+- bundle exec rake spree_china_address:install:migrations
+- bundle exec rake db:migrate
 
 Testing
 -------
