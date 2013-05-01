@@ -1,21 +1,28 @@
 SpreeChinaAddress
 =================
 
-Introduction goes here.
+Spree checkout address for china.
 
+Add city, city-area and reciver name to address model.
 
-Example
+Remove firstname, lastname.
+
+how to use in spree
 =======
 
-Example goes here.
+-cd your_store
+-bundle exec rake spree_china_address:install:migrations
+-bundle exec rake db:migrate
 
 Testing
 -------
 
-Be sure to bundle your dependencies and then create a dummy test app for the specs to run against.
+todo
 
-    $ bundle
-    $ bundle exec rake test_app
-    $ bundle exec rspec spec
+What's the next
+=======
+
+- test
+- admin manage
 
 Copyright (c) 2013 [name of extension creator], released under the New BSD License
